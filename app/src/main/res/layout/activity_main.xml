@@ -1,0 +1,154 @@
+<android.support.v4.widget.DrawerLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/mdrawer"
+    android:fitsSystemWindows="true"
+    android:layout_height="match_parent">
+
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relative"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:gravity="center"
+    android:background="@drawable/background2"
+    tools:context="com.dream.searchit.MainActivity">
+
+
+
+    <TextView
+        android:id="@+id/txt_1"
+        android:text="Start searching!"
+        android:textColor="@color/grey1"
+        android:fontFamily="monospace"
+        android:textSize="15dp"
+        android:layout_marginLeft="35dp"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+
+        />
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="wrap_content"
+        android:src="@drawable/ic_launcher_search1"
+        android:layout_marginLeft="190dp"
+        android:layout_height="60dp" />
+
+
+    <AutoCompleteTextView
+        android:id="@+id/autotext"
+        android:layout_width="320dp"
+        android:layout_height="40dp"
+        android:dropDownHeight="400dp"
+        android:layout_marginTop="40dp"
+        />
+    <ImageView
+        android:id="@+id/btn_cancel"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="35dp"
+        android:layout_height="30dp"
+        android:src="@drawable/ic_launcher_clear1"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_height="wrap_content">
+
+
+    <Button
+        android:id="@+id/btn_click1"
+        android:layout_width="0dp"
+        android:clickable="true"
+        android:background="@color/blue2"
+        android:alpha="0.5"
+        android:layout_weight="1"
+        android:text="Add"
+        android:textColorHighlight="@color/black"
+        android:fontFamily="monospace"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="135dp"></Button>
+
+        <Button
+            android:id="@+id/btn_click"
+            android:layout_width="0dp"
+            android:clickable="true"
+            android:layout_weight="1"
+            android:onClick="button"
+            android:background="@drawable/button_rect"
+            android:alpha="0.5"
+            android:text="search.."
+            android:textColorHighlight="@color/black"
+            android:fontFamily="monospace"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="135dp"></Button>
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/sandman"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <android.support.design.widget.AppBarLayout
+            android:id="@+id/appbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="40dp">
+
+            </android.support.v7.widget.Toolbar>
+
+        </android.support.design.widget.AppBarLayout>
+
+        <RelativeLayout
+            android:id="@+id/relative3"
+            android:layout_below="@+id/appbar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></RelativeLayout>
+
+        <!--<ImageView
+            android:layout_width="25dp"
+            android:id="@+id/nav_drawer"
+            android:src="@drawable/ic_launcher_navfigure5"
+            android:layout_marginLeft="10dp"
+            android:layout_height="50dp" />-->
+
+
+    </RelativeLayout>
+
+
+
+    <android.support.design.widget.NavigationView
+        android:id="@+id/Nav_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:headerLayout="@layout/navigation_header"
+        app:menu="@menu/nav_menu"
+        ></android.support.design.widget.NavigationView>
+
+
+</android.support.v4.widget.DrawerLayout>

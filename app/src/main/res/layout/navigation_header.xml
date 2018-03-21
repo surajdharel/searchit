@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="140dp"
+    android:background="@drawable/background1"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SEARCHit"
+        android:textSize="24dp"
+        android:textColor="@color/blue2"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+        android:fontFamily="monospace"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Possibly Connecting.. "
+        android:textSize="10dp"
+        android:textColor="@color/white"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="80dp"
+        android:fontFamily="monospace"
+        />
+
+</FrameLayout>

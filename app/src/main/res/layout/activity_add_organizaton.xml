@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey"
+    tools:context="com.dream.searchit.AddOrganizaton">
+
+    <TextView
+        android:id="@+id/txt_1"
+        android:text="SEARCHit"
+        android:textColor="@color/orange"
+        android:fontFamily="monospace"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:id="@+id/orgtextview1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="20dp"
+        android:text="Enter name of company: "
+
+        />
+    <TextView
+        android:id="@+id/orgtextview2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/orgtextview1"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:text="Enter Contact number: "
+        />
+
+    <TextView
+        android:id="@+id/orgtextview3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/orgtextview2"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:text="Enter Address: "
+        />
+
+    <Button
+        android:id="@+id/org_button"
+        android:layout_width="100dp"
+        android:text="Add"
+        android:layout_below="@id/orgtextview3"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="120dp"
+        />
+
+    <EditText
+        android:id="@+id/edit_first_org"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="95dp" />
+
+    <EditText
+        android:id="@+id/edit_second_org"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:inputType="phone"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="140dp"
+        />
+    <EditText
+        android:id="@+id/edit_third_org"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:inputType="textAutoComplete"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="185dp"
+        />
+
+</RelativeLayout>

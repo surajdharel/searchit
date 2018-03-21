@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_view"
+            android:icon="@drawable/ic_launcher_list1"
+            android:title="View contact lists">
+
+        </item>
+
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_launcher_settings1"
+            android:title="Settings">
+
+        </item>
+
+    </group>
+
+    <item android:title="others">
+        <menu>
+            <item
+                android:id="@+id/nav_help"
+                android:icon="@drawable/ic_launcher_help1"
+                android:title="Help">
+
+            </item>
+
+            <item
+                android:id="@+id/dw"
+                android:icon="@drawable/ic_launcher_dw1"
+                android:title="Developers website">
+
+            </item>
+        </menu>
+
+    </item>
+
+
+</menu>

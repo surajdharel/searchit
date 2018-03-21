@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "532356795320",
+    "firebase_url": "https://learning-d64ec.firebaseio.com",
+    "project_id": "learning-d64ec",
+    "storage_bucket": "learning-d64ec.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:532356795320:android:bed2b71dae6e4475",
+        "android_client_info": {
+          "package_name": "com.dream.searchit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "532356795320-pm1tkf9ogct6tl6ipm6sr3m0sjbgka71.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDkvR7OkSG-Y5gLOiod5CPkONYNeIT1fNk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
