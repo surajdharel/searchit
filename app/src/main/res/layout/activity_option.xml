@@ -66,13 +66,7 @@
                     android:layout_marginTop="160dp"
                     android:src="@drawable/personcontact1" />
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_below="@+id/img_view1"
-                    android:layout_marginLeft="45dp"
-                    android:layout_marginTop="27dp"
-                    android:text="Person" />
+
 
 
 
@@ -96,13 +90,7 @@
                     android:src="@drawable/organization1" />
 
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_below="@+id/img_view2"
-                    android:layout_marginLeft="25dp"
-                    android:layout_marginTop="27dp"
-                    android:text="Organization" />
+
                 </LinearLayout>
 
 

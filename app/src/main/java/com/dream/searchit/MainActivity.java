@@ -202,7 +202,7 @@ public class MainActivity extends AppCompatActivity  {
 
                 relativeLayout.setGravity(Gravity.TOP);
                 Animation fadeIn = new AlphaAnimation(0, 1);
-                fadeIn.setDuration(2100);
+                fadeIn.setDuration(1300);
                 btn_add.setAnimation(fadeIn);
                 btn_search.setAnimation(fadeIn);
 

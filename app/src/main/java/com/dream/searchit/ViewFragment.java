@@ -2,7 +2,10 @@ package com.dream.searchit;
 
 
 import android.content.Context;
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
+import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
@@ -42,6 +45,8 @@ public class ViewFragment extends Fragment {
         recycleview.setHasFixedSize(true);
 
 
+
+
         adapter = new Viewlist.CustomAdapter(getActivity(),info);
         recycleview.setAdapter(adapter);
 
@@ -50,6 +55,8 @@ public class ViewFragment extends Fragment {
 
 
     }
+
+
 
 
 
@@ -66,6 +73,8 @@ public class ViewFragment extends Fragment {
             inflater=LayoutInflater.from(context);
         }
 
+
+
         @Override
         public Viewlist.CustomAdapter.ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
             View view = inflater.inflate(R.layout.item_viewlist,parent,false);
@@ -79,6 +88,7 @@ public class ViewFragment extends Fragment {
             holder.tv_first.setText(info_1.getName());
             holder.tv_second.setText(String.valueOf(info_1.getNumber()));
             holder.tv_third.setText(info_1.getAddress());
+
         }
 
         @Override
@@ -92,12 +102,14 @@ public class ViewFragment extends Fragment {
             public TextView tv_second;
             public TextView tv_third;
 
+
             public ViewHolder(View itemView) {
                 super(itemView);
 
                 tv_first= (TextView) itemView.findViewById(R.id.text_name);
                 tv_second= (TextView) itemView.findViewById(R.id.text_number);
                 tv_third= (TextView) itemView.findViewById(R.id.text_address);
+
 
 
             }

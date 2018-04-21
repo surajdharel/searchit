@@ -49,6 +49,7 @@
             android:layout_weight="1"
             android:layout_marginRight="0dp"
             android:textColor="@color/white"
+            android:fontFamily="monospace"
             android:layout_width="wrap_content"
             android:text="numberrrrrrrrrrrrrrrr"
             android:layout_height="wrap_content" />

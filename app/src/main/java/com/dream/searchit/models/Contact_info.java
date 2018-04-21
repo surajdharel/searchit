@@ -22,6 +22,7 @@ public class Contact_info implements Serializable {
     private double lat;
     private double lng;
 
+
     public Contact_info(double lat, double lng) {
         this.lat = lat;
         this.lng = lng;

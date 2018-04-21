@@ -1,4 +1,4 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -7,9 +7,57 @@
 
     <!-- TODO: Update blank fragment layout -->
     <TextView
+        android:id="@+id/head1"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:gravity="center"
-        android:text="Help page is coming soon.." />
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginLeft="5dp"
+        android:fontFamily="monospace"
+        android:gravity="top"
+        android:text="पोखरा अन्तर्र्गत पर्ने बिभिन्न सन्स्था जस्तै अस्पताल , होटल , चर्चीत रेष्टुरेन्ट, स्कुल/कलेज लगाएत विभिन्न सरकारी कार्यालयहरूको फोन नम्बर र सोहि ठाउँको नक्सा (लोकेसन ) सर्च गर्न अब हजुरहरूलाई सजिलो हुनेछ यो एपको मार्फत."
+        android:textAlignment="inherit"
+        android:textSize="20px"
+        android:textStyle="bold" />
 
-</FrameLayout>
+
+    <TextView
+        android:id="@+id/head2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/orange"
+        android:layout_below="@+id/head1"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="monospace"
+        android:text="प्राय सबै अस्पताल , होटल, स्कुल, कलेज , सरकारी कार्यालय , प्रचलित रेष्टुरेन्टको ठ्याक नक्सा यो एपमा समावेस गरिएको छ ।"
+        android:textSize="20px"
+
+        />
+
+    <TextView
+        android:id="@+id/head3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/head2"
+        android:layout_marginLeft="5dp"
+        android:textColor="@color/blue2"
+        android:layout_marginTop="10dp"
+        android:fontFamily="monospace"
+        android:text="अहिलेको समयमा इमर्जेन्सि नम्बर चाहिएको खन्डमा इन्क्वाएरिमा फोन गरेर सेध्ने चलन् छ । यहि कुरालाई मघ्य नजर गरेर यो एप निर्माण गरिएको हो ।"
+        android:textSize="20px" />
+
+    <TextView
+        android:id="@+id/head4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/head3"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/green4"
+        android:fontFamily="monospace"
+        android:text="यस् एपबाट हजुरले नम्बर/लोकेसन सर्च गर्नुका साथै आफुले चाहेको नम्बर एड गरेर सेभ पनि गर्न सक्नु हुन्छ । अथवा म्यानुवलि नम्बरहरू हेर्न पनि सक्नु हुन्छ ।"
+        android:textSize="20px"
+        />
+
+
+</RelativeLayout>
